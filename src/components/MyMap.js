@@ -17,7 +17,7 @@ import FlitterTypeSation_Details from "./FlitterTypeSation_Details";
 import LoadingSpinner from "./Loading";
 
 
-const MyMap = () => {
+const MyMap = () =>  {
     
     const containerMap = useRef(null); // Store Div
     const [view, setView] = useState(null);
